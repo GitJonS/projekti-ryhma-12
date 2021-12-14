@@ -1,2 +1,0 @@
-Morjestaaaa 
-oispa kaljaa
