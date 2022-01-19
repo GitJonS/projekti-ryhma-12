@@ -59,8 +59,3 @@ h1, p {
     }
   }
 }
-
-//codepen用 reset
-* {
-  box-sizing: border-box;
-}
