@@ -16,6 +16,11 @@ body {
   background: linear-gradient(to bottom, rgba(255, 154, 82, 0.8) 0, rgba(148, 212, 95, 0.8) 100%), url(../img/taustakuva.jpg);
   
 }
+
+p {
+	text-align: center;
+
+}
 .nav-horizontal {
   background-color:rgba(0, 255, 3, 0.29);
   overflow: hidden;
