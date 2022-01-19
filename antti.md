@@ -1,2 +1,0 @@
-Antti Tikka
-Loma alkaa :)
