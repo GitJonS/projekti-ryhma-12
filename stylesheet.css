@@ -13,6 +13,8 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  background: linear-gradient(to bottom, rgba(158, 120, 93, 0.8) 0, rgba(148, 212, 95, 0.8) 100%), url(../img/taustakuva.jpg);
+  
 }
 .nav-horizontal {
   background-color:rgba(0, 255, 3, 0.29);
