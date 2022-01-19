@@ -16,12 +16,6 @@ body {
   background-color: #fff
 }
 
-h1, p {
-  margin: 20px;
-  color: #666;
-  line-height: 1.75em;
-}
-
 .nav-horizontal {
   background-color: #fff;
   overflow: hidden;
