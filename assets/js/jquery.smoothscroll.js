@@ -2,7 +2,7 @@
 // Licensed under the terms of the MIT license.
 
 // People involved
-//  - Balazs Galambosi (maintainer)  
+//  - Balazs Galambosi (maintainer)
 //  - Patrick Brunner  (original idea)
 //  - Michael Herf     (Pulse Algorithm)
 //  - Justin Force     (Resurect)
@@ -396,8 +396,12 @@ function overflowingAncestor(el) {
  * HELPERS
  ***********************************************/
 
-function addEvent(type, fn, bubble) {
-  window.addEventListener(type, fn, (bubble||false));
+ function addEvent(type, fn, bubble) {
+  if (type == "mousewheel") {
+    window.addEventListener(type, fn, { passive: false }, bubble || false);
+  } else {
+    window.addEventListener(type, fn, bubble || false);
+  }
 }
 
 function removeEvent(type, fn, bubble) {
