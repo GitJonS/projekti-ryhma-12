@@ -1481,6 +1481,10 @@ ul.tweet-slider small {
 .entry-image a {
   display: block;
 }
+video {
+  width: 100%;
+  height: auto;
+}
 
 .entry-image a:hover {
   opacity: 0.8;
